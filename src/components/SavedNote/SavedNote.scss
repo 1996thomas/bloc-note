@@ -1,0 +1,25 @@
+.SavedNote__wrapper{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1em;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+  button{
+    width: 100%;
+  }
+  .Note__wrapper{
+    border: 1px solid black;
+    margin: 1em;
+    padding: 1em;
+    max-width: 350px;
+    width: 100%;
+    min-height: 8rem;
+    overflow: scroll;
+    p{
+      text-overflow: ellipsis;
+    }
+  }
+}
